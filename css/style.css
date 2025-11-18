@@ -1,0 +1,23 @@
+.hero-section {
+    background-image: url(../img/bg-desktop.jpg); 
+    background-size: cover; 
+    background-position: center;
+    min-height: 500px; 
+    position: relative;
+}
+
+.hero-section .container {
+    position: relative;
+    z-index: 1;
+}
+
+.banner-card {
+    position: relative; 
+}
+
+.banner-text {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+}
